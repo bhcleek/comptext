@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=comptext
+GenericName=Generic Text Comparison
+Comment=Amateur Radio Communications
+Exec=comptext
+Icon=comptext
+Terminal=false
+Type=Application
+Categories=Other;HamRadio;
