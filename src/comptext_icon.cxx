@@ -1,5 +1,5 @@
 /* XPM */
-char * comptext_xpm[] = {
+static const char *comptext_icon[] = {
 "48 48 333 2",
 "  	c None",
 ". 	c #BCBFB9",
