@@ -60,8 +60,7 @@ CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am__comptext_SOURCES_DIST = comptext.rc include/comptextrc.h main.cxx \
-	comp_txt.cxx comp_ui.cxx include/comptext_icon.h \
-	include/comp_txt.h include/comp_ui.h
+	comp_txt.cxx comp_ui.cxx include/comp_txt.h include/comp_ui.h
 am__objects_1 = comptext.$(OBJEXT)
 @HAVE_WINDRES_TRUE@@MINGW32_TRUE@am__objects_2 = $(am__objects_1)
 am_comptext_OBJECTS = $(am__objects_2) comptext-main.$(OBJEXT) \
@@ -241,7 +240,7 @@ EXTRA_comptext_SOURCES = $(comptext_WIN32_RES_SRC) $(MINGW32_SRC)
 
 # Sources that we build. It is OK to have headers here.
 comptext_SOURCES = $(am__append_1) main.cxx comp_txt.cxx comp_ui.cxx \
-	include/comptext_icon.h include/comp_txt.h include/comp_ui.h
+	include/comp_txt.h include/comp_ui.h
 
 # Sources that are generated,
 BUILT_SOURCES = 
@@ -259,8 +258,8 @@ APPBUNDLE_NOLIBS = $(APPBUNDLE)-nolibs
 
 # Additional non-source files that are distributed
 # Additional source files that support non-Linux cross compilation
-EXTRA_DIST = comptext.rc comp_ui.fl include/comptextrc.h \
-	$(srcdir)/../data/comptext.desktop \
+EXTRA_DIST = comptext.rc comp_ui.fl comptext_icon.cxx \
+	include/comptextrc.h $(srcdir)/../data/comptext.desktop \
 	$(srcdir)/../data/comptext.xpm \
 	$(srcdir)/../data/win32/fl_app.nsi \
 	$(srcdir)/../data/win32/comptext.ico \

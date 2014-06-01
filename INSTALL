@@ -1,38 +1,36 @@
-Installation Instructions for fl505
-************************************
+Installation Instructions for comptext
+**************************************
 
-To compile fl505 you will need:
+To compile comptext you will need:
 
   * A recent C++ compiler.  The GNU C++ compilers in the 4.x series are
     known to work.
 
-  * Version 1.1.x of the Fast Light Tool Kit (FLTK), with its
-    development library and headers.  Versions 1.1.7 to 1.1.9 are known
-    to work.  FLTK's multi-threading support is recommended but not
-	required.
+  * Version 1.3.x of the Fast Light Tool Kit (FLTK), with its
+    development library and headers. FLTK's multi-threading support is required.
 
 Once you have installed the required packages, the following commands
-should be sufficient to compile fl505 and install it under /usr/local:
+should be sufficient to compile comptext and install it under /usr/local:
 
   ./configure
   make
   make install    (you may need superuser privileges for installation)
 
 The `install' target installs the executable, an icon, and a .desktop
-file.  After installation, an fl505 launcher should appear somewhere in
+file.  After installation, an comptext launcher should appear somewhere in
 your applications menu.
 
-Create the desktop launcher.  fl505 is designed as a desktop application
+Create the desktop launcher.  comptext is designed as a desktop application
 that accepts target files to be wrapped or unwrapped by dropping the
 file onto the desktop launcher.
 
 Windows installation notes
 **************************
 
-fl505 supports win32 systems as a cross compiled application using the
+comptext supports win32 systems as a cross compiled application using the
 MinGW win32 environment.
 
-To build an internationalized version of fl505, install these
+To build an internationalized version of comptext, install these
 additional packages:
 
   gettext gettext-devel libiconv libiconv2

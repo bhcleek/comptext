@@ -100,7 +100,6 @@ comptext_SOURCES += \
 	main.cxx \
 	comp_txt.cxx \
 	comp_ui.cxx \
-	include/comptext_icon.h \
 	include/comp_txt.h  \
 	include/comp_ui.h
 
@@ -108,6 +107,7 @@ comptext_SOURCES += \
 EXTRA_DIST = \
 	comptext.rc \
 	comp_ui.fl \
+	comptext_icon.cxx \
 	include/comptextrc.h
 
 # Additional non-source files that are distributed

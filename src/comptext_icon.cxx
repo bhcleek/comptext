@@ -1,5 +1,5 @@
 /* XPM */
-static char *dummy[]={
+static const char *comptext_icon[] = {
 "64 64 446 2",
 "Qt c None",
 "cj c #0c090a",
@@ -510,4 +510,5 @@ static char *dummy[]={
 "QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtexey#WezeAeBeCeDeEeFeFeFeGeFeGeFeGeFeFeH#4eIeJeKeLeMeNQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt",
 "QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQteOePcIcS#LeQeReSeTeUeVeWeXeYeZaJe0cMcScTe1e2QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt",
 "QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQte3bLdR#Fe4e4cXaWaWcIe4cta0e5e6QtQtQte7QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt",
-"QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt"};
+"QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt"
+};
