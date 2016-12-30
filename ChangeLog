@@ -1,4 +1,28 @@
-2013-12-25  David Freese  <w1hkj@w1hkj.com>
 
-	7828cb1: Init revision
+
+=Version 1.0.2=
+
+2016-12-30  David Freese  <iam_w1hkj@w1hkj.com>
+
+	8840e12: buildmxe.sh
+
+2016-07-04  Robert Cunnings  <nw8l@whitemesa.com>
+
+	89603a7: mxe update
+
+2015-06-11  Kamal Mostafa  <kamal@whence.com>
+
+	0dc9f40: BUILD_{DATE,USER,HOST}
+
+2014-09-07  w1hkj.mint  <w1hkj.mint@bellsouth.net>
+
+	ef63289: build fix
+
+
+=Version 1.0.1=
+
+
+2014-06-01  David Freese  <w1hkj@w1hkj.com>
+
+	c1b9ad1: Init revision
 	6647d1f: Initial repository
