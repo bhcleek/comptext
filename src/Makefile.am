@@ -101,7 +101,9 @@ comptext_SOURCES += \
 	comp_txt.cxx \
 	comp_ui.cxx \
 	include/comp_txt.h  \
-	include/comp_ui.h
+	include/comp_ui.h \
+	include/compat.h \
+	include/compat-mingw.h
 
 # Additional source files that are distributed
 EXTRA_DIST = \
