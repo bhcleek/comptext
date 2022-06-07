@@ -1,9 +1,14 @@
+2022-06-07  dave-w1hkj  <w1hkj@bellsouth.net>
 
+	b3576f6: Version 1.0.3
 
-=Version 1.0.2=
+2021-01-16  David Freese  <w1hkj@bellsouth.net>
 
-2016-12-30  David Freese  <iam_w1hkj@w1hkj.com>
-
+	f67de2b: mingw build scripts
+	a5c591c: OS X build script
+	81f75a9: win mingw
+	8d40f64: INSTALL
+	6f5cf48: Version 1.0.2
 	8840e12: buildmxe.sh
 
 2016-07-04  Robert Cunnings  <nw8l@whitemesa.com>
@@ -18,11 +23,8 @@
 
 	ef63289: build fix
 
-
-=Version 1.0.1=
-
-
 2014-06-01  David Freese  <w1hkj@w1hkj.com>
 
+	87ac219: Version 1.0.1
 	c1b9ad1: Init revision
 	6647d1f: Initial repository

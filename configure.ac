@@ -12,7 +12,7 @@ dnl major and minor must be integers; patch may
 dnl contain other characters or be empty
 m4_define(comptext_MAJOR,  [1])
 m4_define(comptext_MINOR,  [0])
-m4_define(comptext_PATCH,  [.2])
+m4_define(comptext_PATCH,  [.3])
 
 AC_INIT([comptext], comptext_MAJOR.comptext_MINOR[]comptext_PATCH, [w1hkj AT w1hkj DOT com])
 
